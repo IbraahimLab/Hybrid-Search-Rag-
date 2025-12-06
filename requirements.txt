@@ -1,0 +1,49 @@
+# Web framework & frontend
+fastapi
+uvicorn[standard]
+nicegui
+
+# LangChain core + extensions
+langchain
+langchain-community
+langchain-chroma
+langchain-classic
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-groq
+
+# Vector databases
+qdrant-client
+chromadb
+
+# Dense embeddings & reranker
+sentence-transformers
+transformers
+torch
+torchvision
+
+# Sparse retrieval (BM25)
+rank_bm25
+scikit-learn
+numpy
+
+# Redis short-term memory
+redis
+aioredis
+
+# PDF parsing & text utilities
+pypdf
+tiktoken
+nltk
+
+# Config & environment
+python-dotenv
+pyyaml
+
+# Optional HTTP requests for Groq LLM API
+httpx
+requests
+
+
+gradio==3.41.2
